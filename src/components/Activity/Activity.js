@@ -18,7 +18,7 @@ const Activity = (props) => {
        />   
   </Card.Body>
    <Card.Footer className="bg-danger text-center">
-   <Link className="link-main">{name}</Link>
+   <Link to={`/register/${name}`} className="link-main">{name}</Link>
    </Card.Footer>
  </Card>
 </div>      

@@ -1,0 +1,21 @@
+.logo{
+    margin-top: 60px;
+    margin-left: 30rem;
+}
+.btn-login{
+    display: block;
+    margin-left: 35%;
+    margin-top: 4rem;
+    background-color: #fff;
+    border:1px solid #ddd;
+    border-radius:13%;
+    width:300px;
+    padding: 1rem;
+    min-height: 2rem;
+}
+.btn-login:focus{
+    outline: none;
+}
+.btn-login img{
+    margin-right: 30px;
+}

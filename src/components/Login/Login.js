@@ -40,7 +40,7 @@ const Login = () => {
 
     return (
         <div>
-            <img src={volunteerLogo} alt="" style={{width:"200px"}} className="logo"/>
+            <img src={volunteerLogo} alt=""  className="logo"/>
              <div>
              <button className="btn-login" onClick={handleGoogleLogin}>
                  <img src={googleLogo} alt="" style={{width:"40px"}}/>

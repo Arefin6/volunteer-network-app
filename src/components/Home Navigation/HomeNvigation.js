@@ -17,7 +17,7 @@ const HomeNvigation = () => {
             <Nav.Link href="#"  className="link-style">Event</Nav.Link>
             <Nav.Link href="#"  className="link-style">Blog</Nav.Link>
              <Button variant="primary" className="ml-5">Register</Button>
-              <Link className="btn btn-dark ml-3">Admin</Link>
+              <Link className="btn btn-dark ml-3" to="/adminPanel">Admin</Link>
             </Nav>
         </Navbar.Collapse>
     </Navbar> 

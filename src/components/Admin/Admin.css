@@ -1,0 +1,19 @@
+body{
+    background-color: whitesmoke;
+}
+.sidebar {
+    background-color: white;
+    padding: 1rem;
+}
+.volenteer-list-link{
+    color: #5c7fa8;
+}
+.amdinTable{
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 40px;
+}
+.list-wraper{
+    margin-left:1% ;
+    padding: 5%;
+}

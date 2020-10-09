@@ -6,6 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import './App.css';
+import Admin from './components/Admin/Admin';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import PrivateRoute from './components/privateRoute/PrivateRoute';
@@ -24,6 +25,9 @@ function App() {
       </Route>
       <Route path="/login">
         <Login></Login>
+      </Route>
+      <Route path="/adminPanel">
+        <Admin></Admin>
       </Route>
       <PrivateRoute path="/task">
         <RegisterdTask></RegisterdTask>

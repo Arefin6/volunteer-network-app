@@ -9,8 +9,8 @@ import './App.css';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import PrivateRoute from './components/privateRoute/PrivateRoute';
+import RegisterdTask from './components/RegistredTask/RegisterdTask';
 import VolunteerRegister from './components/VolunteerRegister/VolunteerRegister';
-import volunteerRegister from './components/VolunteerRegister/VolunteerRegister';
 export const userContext = createContext();
 
 function App() {
@@ -25,9 +25,12 @@ function App() {
       <Route path="/login">
         <Login></Login>
       </Route>
-      <Route path="/register/:name">
+      <PrivateRoute path="/task">
+        <RegisterdTask></RegisterdTask>
+      </PrivateRoute>
+      <PrivateRoute path="/register/:name">
         <VolunteerRegister></VolunteerRegister>
-      </Route>
+      </PrivateRoute>
        <Route exact path="/">
          <Home></Home>
        </Route>
